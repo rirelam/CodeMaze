@@ -4,9 +4,9 @@
   "private": true,
   "description": "",
   "main": "index.js",
-"scripts": {
-    "start:backend": "dotnet run --project backend/src/TuProyecto.csproj",
-    "start:frontend": "pnpm --filter frontend start",
+  "scripts": {
+    "start:backend": "dotnet run --project CompanyEmployees/CompanyEmployees.csproj",
+    "start:frontend": "pnpm --filter ce-fe start",
     "dev": "pnpm concurrently -k -p \"[{name}]\" -c \"cyan.bold,magenta.bold\" -n \"NET-API,ANGULAR\" \"pnpm start:backend\" \"pnpm start:frontend\""
   },
   "keywords": [],
