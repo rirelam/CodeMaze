@@ -1,0 +1,82 @@
+## ==========================================
+## 1. .NET 10 (BACKEND)
+## ==========================================
+
+# Salidas de compilación y publicación
+**/bin/
+**/obj/
+**/out/
+**/publish/
+
+# Archivos de depuración y usuarios
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+
+# Configuraciones locales y secretos de la API
+**/appsettings.Development.json
+**/appsettings.Local.json
+**/appsettings.*.Local.json
+**/secrets.json
+
+## ==========================================
+## 2. ANGULAR / NODE (FRONTEND)
+## ==========================================
+
+# Dependencias y cachés de Node
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Compilación y cachés de Angular
+**/dist/
+**/tmp/
+**/out-tsc/
+**/.angular/
+
+# Configuraciones de entorno locales del Frontend
+**/src/environments/environment.development.ts
+**/src/environments/environment.local.ts
+
+## ==========================================
+## 3. PRUEBAS Y COBERTURA (AMBOS)
+## ==========================================
+
+**/coverage/
+**/TestResults/
+*.coverage
+*.coveragexml
+*.lcov
+
+## ==========================================
+## 4. HERRAMIENTAS DE DESARROLLO E IDEs
+## ==========================================
+
+# Visual Studio / VS Code
+.vs/
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# JetBrains (Rider / WebStorm)
+.idea/
+*.sln.iml
+*.iws
+*.iml
+*.ipr
+
+## ==========================================
+## 5. ARCHIVOS DE SISTEMA OPERATIVO
+## ==========================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*.env
+*.env.local
