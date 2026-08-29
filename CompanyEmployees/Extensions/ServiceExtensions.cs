@@ -1,3 +1,6 @@
+using Contracts;
+using LoggerService;
+
 namespace CompanyEmployees.Extensions;
 
 public static class ServiceExtensions
@@ -8,4 +11,7 @@ public static class ServiceExtensions
             .AllowAnyMethod()
             .AllowAnyHeader());
         });
+
+    public static void ConfigureLoggerService(this IServiceCollection services) 
+        => services.AddSingleton<ILoggerManager, LoggerManager>();
 }
