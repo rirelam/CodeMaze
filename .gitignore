@@ -80,3 +80,4 @@ desktop.ini
 $RECYCLE.BIN/
 *.env
 *.env.local
+api/src/CompanyEmployees/internal_logs/internallog.txt
